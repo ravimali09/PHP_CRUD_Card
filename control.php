@@ -34,7 +34,7 @@ class control extends model
                         $_SESSION['name'] = $fetch->name;
                         echo "<script>
 							alert('Login Success');
-							window.location='index';
+							window.location='dashboard';
 						</script>";
                     } else {
                         echo "<script>
